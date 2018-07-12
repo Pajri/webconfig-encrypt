@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EncryptingWebConfig.WebSite", "EncryptingWebConfig.WebSite\", "{C2C971A2-03F6-44DF-909D-FF2F10DC9D9E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4844"
+		Debug.AspNetCompiler.PhysicalPath = "EncryptingWebConfig.WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4844\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4844"
+		Release.AspNetCompiler.PhysicalPath = "EncryptingWebConfig.WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4844\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4844"
+		SlnRelativePath = "EncryptingWebConfig.WebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C971A2-03F6-44DF-909D-FF2F10DC9D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C971A2-03F6-44DF-909D-FF2F10DC9D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE230439-4AC8-4569-8857-DA5B5F4FF66C}
+	EndGlobalSection
+EndGlobal
