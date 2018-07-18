@@ -8,11 +8,12 @@ Below is summary of encrypting web.config. For more detail, pleae see this link 
 ## Encrypting web.config
 1. Run the website.
 2. Access /CheckAppPoolIdentity. You will see app pool data like this
+   
    | VARIABLE | VALUE |
    | --- | --- |
-   | System.Security.Principal.WindowsIdentity.GetCurrent().Name | <app pool identity name> |
+   | System.Security.Principal.WindowsIdentity.GetCurrent().Name | **&lt;app pool identity name&gt;** |
    
-   Save **<app pool identitiy name>** we will need this value in the next step.
+   Save **&lt;app pool identity name&gt;** we will need this value in the next step.
 
 3. Run **Command Prompt** as **Administrator**
 4. Navigate to **aspnet_regiis** location : `C:\Windows\Microsoft.NET\Framework\<version>`
