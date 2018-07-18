@@ -35,12 +35,12 @@ Below is summary of encrypting web.config. For more detail, pleae see this link 
    
 7. Granting Access to RSA Key Container
    Execute both commands below 
-   ---
+   ```
    aspnet_regiis -pa “<rsa container name>” “NT AUTHORITY\NETWORK SERVICE”
-   ---
-   ---
+   ```
+   ```
    aspnet_regiis -pa “<rsa container name>” “<app pool identity name>”
-   ---
+   ```
    
 8. Updating app’s web.config file to specify a customProvider
    Insert this xml to web.config. For example, above <connectionStrings>
@@ -65,7 +65,7 @@ Below is summary of encrypting web.config. For more detail, pleae see this link 
    ```
    
 10.Exporting the Key Container in Order to be Used in Other Machines
-   '''
+   ```
    aspnet_regiis.exe -px “<rsa container name>” <path to exported key> -pri
    ```
    example : 
